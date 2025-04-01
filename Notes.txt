@@ -15,3 +15,9 @@ System: related to the system
 FormatException:When a string is entered when a number is expected.
 DivideByZeroException: If the denominator is 0 
 
+***With every try multiple catch blocks can be present,but only one finally block can be present.
+***With every try, either a single catch/multiple catch can be present, finally is optional if catch is present.
+****Every every try , catch or finally is compulsory.(One of them is must)
+****If a finally block exists it will be fired whether the exception fires or not.
+Purpose of finally: 1) closing connection, files, etc
+		            2) releasing the resources, ie making them null again, before the execution starts again.
