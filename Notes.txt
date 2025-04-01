@@ -1,0 +1,17 @@
+﻿Exception Handling:
+
+Error:
+Compile Time---- syntax error,logic error
+Runtime-- runtime errors are exceptions 
+
+
+Exception-- Class
+Topmost in the hierarchy of Exception
+
+Types of Exceptions:
+Application: related to the app
+System: related to the system
+
+FormatException:When a string is entered when a number is expected.
+DivideByZeroException: If the denominator is 0 
+
